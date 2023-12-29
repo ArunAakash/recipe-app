@@ -1,11 +1,26 @@
 .recipeList{
 
-    .title{
-        font-size: 20px;
-        font-weight: bold;
-        margin-bottom: 10px;
-        text-align: left;
-        color:#333;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 25px;
+
+        .title{
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-align: left;
+            color:#333;
+        }
+
+        select{
+            outline: none;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
     }
 
     .list{
@@ -14,7 +29,6 @@
         justify-content: center;
         gap: 12px;
         padding-top: 20px;
-        background-color: rgb(217, 216, 214);
 
         .linkItem{
             text-decoration: none;
@@ -29,7 +43,6 @@
         justify-content: space-between;
         border-radius: 8px;
         box-shadow: 0 2px 4px black;
-        background-color: aliceblue;
         height: 100%;
         transition: transform 0.3s ease;
         min-width: 300px;
