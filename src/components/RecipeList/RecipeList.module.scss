@@ -34,6 +34,7 @@
             text-decoration: none;
             color:inherit;
             padding: 10px 15px;
+            margin-bottom: 30px; 
         }
     }
 
@@ -49,7 +50,7 @@
         padding: 11px;
 
         &:hover{
-            transform: translate(-5px);
+            transform: translateY(-5px);
         }
 
         .cardHeading{
